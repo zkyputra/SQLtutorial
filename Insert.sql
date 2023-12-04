@@ -3,8 +3,8 @@ INSERT INTO users (username, password) VALUES
 	('manager222','manager123'),
 	('employee333','employee123');
 INSERT INTO roles ( role_name) VALUES
-	('atasan'),
-	('menejer'),
+	('boss'),
+	('manager'),
 	('pegawai');
 INSERT INTO permissions (permission_name) VALUES
 	('izin_membaca'),
@@ -14,7 +14,7 @@ INSERT INTO users_roles VALUES
 	(1, 1),
 	(2, 2),
 	(3, 3);
-INSERT INTO role_permissions values
+INSERT INTO role_permissions VALUES
 	(1, 1), 
 	(1, 2),	
 	(1, 3),	
